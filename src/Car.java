@@ -1,3 +1,4 @@
+/*Q1. Create a class Car having properties manufacturer and price. Create three instances of the class and display the details of each car sorted with respect to the price.*/
 import java.util.*;
 public class Car {
     String manufacturer;

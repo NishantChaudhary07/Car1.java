@@ -16,7 +16,7 @@ public class Student {
 }
 class Test{
     public static void main(String[] args) {
-        Student arr[]=new Student[3]; //Creating an array of class Student type to store objects of the class
+        Student[] arr =new Student[3]; //Creating an array of class Student type to store objects of the class
 
         float max=0.0f; //Variable to store maximum percentage
         Student top=null;  // Class Student type variable to store object with maximum percentage
