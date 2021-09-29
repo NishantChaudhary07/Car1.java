@@ -6,18 +6,18 @@ Create a class 'AddAmount' with a data member named 'amount' with an initial val
 Create object of the 'AddAmount' class and display the final amount in Piggie Bank.*/
 import java.util.*;
 public class AddAmount {
-    int amount=50;
+    int amount=50; // Creating an instance variable with initial amount 50
     AddAmount(){
-        amount=50;
+        amount=50; //Constructor without parameter that do not add any amount to Piggie bank
     }
-    AddAmount(int add_amount)
+    AddAmount(int add_amount) //Parameterised constructor to add amount to Piggie bank
     {
         amount+=add_amount;
     }
 
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        AddAmount obj=new AddAmount(in.nextInt());
-        System.out.print("Final Amount="+obj.amount);
+        Scanner in=new Scanner(System.in);  //Creating Scanner class object
+        AddAmount obj=new AddAmount(in.nextInt());  // Creating object of the class
+        System.out.print("Final Amount="+obj.amount); //Printing final amount in the Piggie bank
     }
 }
