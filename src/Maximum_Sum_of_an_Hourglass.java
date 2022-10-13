@@ -14,5 +14,6 @@ public class Maximum_Sum_of_an_Hourglass {
 
     public static int sum(int arr[][],int i,int j){
         return arr[i-1][j-1]+arr[i-1][j]+arr[i-1][j+1]+arr[i][j]+arr[i+1][j-1]+arr[i+1][j]+arr[i+1][j+1];
+        .
     }
 }
